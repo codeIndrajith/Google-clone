@@ -1,8 +1,9 @@
+import HomeHeader from '@/components/HomeHeader'
 import React from 'react'
 
 function Home() {
   return (
-    <div>This is a home components</div>
+    <HomeHeader />
   )
 }
 
