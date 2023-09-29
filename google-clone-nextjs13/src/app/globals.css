@@ -11,4 +11,8 @@
         hover:shadow-md w-36 h-10 transition-shadow
         
     }
+
+    .Link {
+        @apply hover:underline cursor-pointer
+    }
 }
