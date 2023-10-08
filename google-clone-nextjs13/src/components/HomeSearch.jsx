@@ -30,7 +30,7 @@ function HomeSearch() {
       if(!response) {
         return;
       }
-      router.push(`/search/web?searchTerm = ${response}`)
+      router.push(`/search/web?searchTerm=${response}`)
       setRandomSearchLoading(false);
   };
   return (
